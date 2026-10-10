@@ -1,4 +1,4 @@
-# 🚀 SAHAYA AI
+# SAHAYA AI
 
 **Complex documents. Clear answers. Confident decisions.**
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 💡 Problem Statement
+## Problem Statement
 
 Every day, students, job seekers, and families receive critical official notices, such as:
 - Scholarship announcements
@@ -19,7 +19,7 @@ Many individuals struggle to digest lengthy, complex legalese. Misunderstanding 
 
 ---
 
-## ✨ SAHAYA AI Solution
+##  SAHAYA AI Solution
 
 **SAHAYA AI** simplifies complex documents into actionable clarity:
 1. **Plain Language Summaries:** Instantly explains what a document means in plain English, Hindi, or Kannada.
@@ -30,7 +30,7 @@ Many individuals struggle to digest lengthy, complex legalese. Misunderstanding 
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend:** React 18, Vite, JavaScript, Tailwind CSS v4, React Router v6, Lucide React Icons
 - **Backend:** Node.js, Express.js REST API, Multer, `pdf-parse`
@@ -39,7 +39,7 @@ Many individuals struggle to digest lengthy, complex legalese. Misunderstanding 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 sahaya-ai/
@@ -74,7 +74,7 @@ sahaya-ai/
 
 ---
 
-## 🚀 Quick Setup Instructions (Beginner-Friendly)
+##  Quick Setup Instructions (Beginner-Friendly)
 
 ### 1. Install Dependencies
 
@@ -140,7 +140,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 To run automated backend tests:
 
@@ -151,7 +151,7 @@ npm test
 
 ---
 
-## 🔒 Security & Privacy Approach
+##  Security & Privacy Approach
 
 - **Server-Only Secrets:** AI API keys are stored exclusively on the backend.
 - **Row Level Security (RLS):** All Supabase PostgreSQL tables restrict read/write access using `auth.uid() = user_id`.
@@ -159,5 +159,5 @@ npm test
 
 ---
 
-## 📄 License
+##  License
 Built for Hackathon Demonstration. All rights reserved.
