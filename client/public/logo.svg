@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="sahaya-grad-primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="sahaya-grad-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Glow Ring -->
+  <rect x="10" y="10" width="100" height="100" rx="28" fill="#0B0F19" stroke="url(#sahaya-grad-primary)" stroke-width="2.5" filter="url(#glow)" opacity="0.6"/>
+  
+  <!-- Main Container -->
+  <rect x="10" y="10" width="100" height="100" rx="28" fill="#0F172A" stroke="url(#sahaya-grad-primary)" stroke-width="3"/>
+
+  <!-- Document Graphic Shield -->
+  <path d="M38 32C38 28.6863 40.6863 26 44 26H68L82 40V88C82 91.3137 79.3137 94 76 94H44C40.6863 94 38 91.3137 38 88V32Z" fill="url(#sahaya-grad-glow)" stroke="url(#sahaya-grad-primary)" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Document Fold -->
+  <path d="M66 26V42H82" fill="none" stroke="url(#sahaya-grad-primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Document Lines -->
+  <line x1="48" y1="50" x2="62" y2="50" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="48" y1="60" x2="72" y2="60" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="48" y1="70" x2="68" y2="70" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- AI Intelligence Spark Star (Top Right Overlay) -->
+  <g transform="translate(64, 62) scale(0.9)">
+    <circle cx="16" cy="16" r="16" fill="#8B5CF6" />
+    <path d="M16 6L18.5 13.5L26 16L18.5 18.5L16 26L13.5 18.5L6 16L13.5 13.5L16 6Z" fill="#FFFFFF"/>
+  </g>
+</svg>
